@@ -1,0 +1,16 @@
+{
+  "Student": {
+    "fields": {
+      "Age": {
+        "type": "int"
+      },
+      "Classes": {
+        "element_type": "string",
+        "type": "[]string"
+      },
+      "Name": {
+        "type": "string"
+      }
+    }
+  }
+}
