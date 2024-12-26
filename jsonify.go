@@ -77,7 +77,7 @@ func structToJSONDefinition(data interface{}) (string, error) {
 	return string(jsonData), nil
 }
 
-func main() {
+func generateJSONModule() {
 	// Generate JSON representation of the struct
 	jsonDef, err := structToJSONDefinition(Student{})
 	if err != nil {
